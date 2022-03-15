@@ -223,3 +223,13 @@ input[type="range"] {
   background: rgb(41, 41, 41);
   color: white;
 }
+
+@media screen and (max-width:800px) {
+  .colors {
+      flex-direction: column;
+  }
+
+  .color {
+      min-height: 50vh;
+  }
+}
